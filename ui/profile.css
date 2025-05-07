@@ -1,0 +1,46 @@
+.content-scroll h6{
+    color: var(--text-secondary);
+}
+
+.subscription-section {
+    font-family: system-ui, sans-serif;
+  }
+  
+  .section-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subscribe-btn, .bundle-option {
+    background-color: #4db8ff;
+    color: white;
+    border-radius: 999px;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .renew-info {
+    color: #999;
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+  }
+  
+  .renew-date {
+    float: right;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .arrow {
+    font-size: 1rem;
+    float: right;
+    margin-right: 4px;
+  }
+  

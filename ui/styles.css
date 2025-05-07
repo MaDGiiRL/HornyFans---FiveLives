@@ -8,6 +8,13 @@ body {
     visibility: hidden;
 }
 
+#content {
+    height: 100%; /* assicurati che l'altezza sia piena */
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+
 .app {
     width: 100%;
     height: 100%;
@@ -26,7 +33,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 0.2rem;
 }
 
 .header,
@@ -130,4 +137,18 @@ input {
 
 .btn-custom:hover {
     background-color: #059dfc;
+}
+
+.content-scroll {
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.menu {
+    position: sticky;
+    bottom: 0;
+    z-index: 99999999;
+    width: 100%;
+    background-color: rgba(78, 171, 233, 0.075);
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
 }
